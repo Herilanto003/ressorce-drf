@@ -1,0 +1,14 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'nom_de_votre_base_de_donnees',
+        'USER': 'votre_utilisateur_mysql',
+        'PASSWORD': 'votre_mot_de_passe_mysql',
+        'HOST': 'localhost',   # Ou l'adresse IP de votre serveur MySQL
+        'PORT': '3306',        # Port MySQL par défaut
+    }
+}
+
+
+
+ALTER DATABASE `NOM_BASE_DE_DONNEES` CHARACTER SET utf8
